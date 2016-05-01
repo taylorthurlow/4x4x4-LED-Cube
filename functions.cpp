@@ -22,10 +22,6 @@ int intensityArray[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1
 	4008, 4095}
 
 	/**
-	 * Testing sublime commit mother fuckers
-	 */
-
-	/**
 	 * Values for this array are calculated so that there are 256 individual unique
 	 * valuesthat scale logarithmically from 0 to 4095. This
 	 * accounts for the non-linearity of the provided tlc5940 scale of LED brightness,
