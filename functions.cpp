@@ -3,6 +3,7 @@
 #include "LEDColor.h"
 
 LEDColor currentColor = white;
+
 int intensityArray[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
 	19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
 	40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 55, 56, 57, 58, 59, 61, 62,
@@ -19,14 +20,20 @@ int intensityArray[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1
 	2203, 2250, 2299, 2349, 2399, 2451, 2504, 2558, 2614, 2670, 2728, 2787, 2847, 2909, 
 	2971, 3036, 3101, 3168, 3237, 3307, 3378, 3451, 3526, 3602, 3680, 3759, 3841, 3924, 
 	4008, 4095}
-		/**
-		 * Values for this array are calculated so that there are 256 individual unique
-		 * valuesthat scale logarithmically from 0 to 4095. This
-		 * accounts for the non-linearity of the provided tlc5940 scale of LED brightness,
-		 * as the lower ranges from 0-2000 seemed to have a significantly larger effect
-		 * on total brightness as compared to the values from 2000-4095. The logarithmic
-		 * scaling should help make the brightness value have a more linear effect.
-		 */
+
+	/**
+	 * Testing sublime commit mother fuckers
+	 */
+
+	/**
+	 * Values for this array are calculated so that there are 256 individual unique
+	 * valuesthat scale logarithmically from 0 to 4095. This
+	 * accounts for the non-linearity of the provided tlc5940 scale of LED brightness,
+	 * as the lower ranges from 0-2000 seemed to have a significantly larger effect
+	 * on total brightness as compared to the values from 2000-4095. The logarithmic
+	 * scaling should help make the brightness value have a more linear effect.
+	 */
+
 int currentIntensity = 4095;
 int currentLevel = 0;
 
